@@ -11,6 +11,5 @@ class child_import(calculator):
     def getCompleteData(self):
         return self.num2 + self.num +self.summation()
         
-
 obj =child_import()
 print(obj.getCompleteData())
